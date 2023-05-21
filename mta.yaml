@@ -63,15 +63,16 @@ resources:
         xsappname: 'risk-management-${org}-${space}'
         tenant-mode: dedicated
         role-collections:
-        - name: 'RiskManager-${space}'
-          description: Manage Risks
-          role-template-references:
-          - $XSAPPNAME.RiskManager
-        - name: 'RiskViewer-${space}'
-          description: View Risks
-          role-template-references:
-          - $XSAPPNAME.RiskViewer
+          - name: 'RiskManager2-${space}'
+            description: Manage Risks
+            role-template-references:
+              - $XSAPPNAME.RiskManager2
+          - name: 'RiskViewer2-${space}'
+            description: View Risks
+            role-template-references:
+              - $XSAPPNAME.RiskViewer2
         oauth2-configuration:
           redirect-uris:
             # example: - https://risk-management-approuter.cfapps.eu10-004.hana.ondemand.com/login/callback
-            - https://oddleif-rotmo-free-ni2tmg7-test-risk-management.cfapps.ca10.hana.ondemand.com/login/callback
+            #- https://oddleif-rotmo-free-ni2tmg7-test-risk-management.cfapps.ca10.hana.ondemand.com/login/callback
+            - https://rextest-dev-risk-management.cfapps.us20.hana.ondemand.com/login/callback

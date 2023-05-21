@@ -7,11 +7,11 @@
    entity Risks @(restrict : [
        {
           grant : [ 'READ' ],
-          to : [ 'RiskViewer' ]
+          to : [ 'RiskViewer2' ]
        },
        {
            grant : [ '*' ],
-           to : [ 'RiskManager' ]
+           to : [ 'RiskManager2' ]
        }
    ]) as projection on rm.Risks;
 
