@@ -73,6 +73,6 @@ resources:
               - $XSAPPNAME.RiskViewer2
         oauth2-configuration:
           redirect-uris:
-            # example: - https://risk-management-approuter.cfapps.eu10-004.hana.ondemand.com/login/callback
+            # example: -  https://risk-management-approuter.cfapps.eu10-004.hana.ondemand.com/login/callback
             #- https://oddleif-rotmo-free-ni2tmg7-test-risk-management.cfapps.ca10.hana.ondemand.com/login/callback
             - https://rextest-dev-risk-management.cfapps.us20.hana.ondemand.com/login/callback
