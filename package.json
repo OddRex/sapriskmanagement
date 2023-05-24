@@ -59,7 +59,7 @@
         "[development]": {
           "credentials": {
              "url": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_BUSINESS_PARTNER/"
-          }
+          } 
        },
        "[production]": {
           "credentials": {
